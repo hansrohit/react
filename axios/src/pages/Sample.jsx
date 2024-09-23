@@ -24,9 +24,9 @@ const Sample = () => {
   return (
     <>
       <div className="w-full h-full flex flex-row flex-wrap gap-8 justify-center items-center">
-        <div className="w-full h-[10%] flex justify-center items-center">
-          {/* <AddComponent /> */}
-        </div>
+        {/* <div className="w-full h-[10%] flex justify-center items-center">
+          <AddComponent />
+        </div> */}
 
         {projectdata.map((data, index) => (
           <ProjectCard
